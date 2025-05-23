@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Selector - 3D Interactive Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Design/FruitDesign.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Fruit Selector</h1>
+            <p>Choose your favorite fruits!</p>
+        </div>
+        
+        <div class="content">
+            <form action="process.php" method="post">
+                <div class="fruit-grid">
+                    <!-- Apple -->
+                    <div class="fruit-card">
+                        <input type="checkbox" id="apple" name="fruits[]" value="apple">
+                        <label for="apple">
+                            <img src="https://t3.ftcdn.net/jpg/03/10/32/02/360_F_310320273_I9rR1l7918MJoZ0GRHGIBgZl9F9ShEXq.jpg" alt="Apple" class="fruit-img">
+                            <div class="fruit-name">Apple</div>
+                        </label>
+                    </div>
+                    
+                    <!-- Banana -->
+                    <div class="fruit-card">
+                        <input type="checkbox" id="banana" name="fruits[]" value="banana">
+                        <label for="banana">
+                            <img src="https://cdn.pixabay.com/photo/2017/06/27/22/21/banana-2449019_960_720.jpg" alt="Banana" class="fruit-img">
+                            <div class="fruit-name">Banana</div>
+                        </label>
+                    </div>
+                    
+                    <!-- Orange -->
+                    <div class="fruit-card">
+                        <input type="checkbox" id="orange" name="fruits[]" value="orange">
+                        <label for="orange">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/2560px-Orange-Fruit-Pieces.jpg" alt="Orange" class="fruit-img">
+                            <div class="fruit-name">Orange</div>
+                        </label>
+                    </div>
+                    
+                    <!-- Strawberry -->
+                    <div class="fruit-card">
+                        <input type="checkbox" id="strawberry" name="fruits[]" value="strawberry">
+                        <label for="strawberry">
+                            <img src="https://thumbs.dreamstime.com/b/three-strawberries-strawberry-leaf-white-background-114284301.jpg" alt="Strawberry" class="fruit-img">
+                            <div class="fruit-name">Strawberry</div>
+                        </label>
+                    </div>
+                    
+                    <!-- Grape -->
+                    <div class="fruit-card">
+                        <input type="checkbox" id="grape" name="fruits[]" value="grape">
+                        <label for="grape">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQByEqYwb6KNabgDkOL4y-4ITyykqKVfnEoHg&s" alt="Grape" class="fruit-img">
+                            <div class="fruit-name">Grape</div>
+                        </label>
+                    </div>
+                    
+                    <!-- Watermelon -->
+                    <div class="fruit-card">
+                        <input type="checkbox" id="watermelon" name="fruits[]" value="watermelon">
+                        <label for="watermelon">
+                            <img src="https://media.istockphoto.com/id/1142119394/photo/whole-and-slices-watermelon-fruit-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=A5XnLyeI_3mwkCNadv-QLU4jzgNux8kUPfIlDvwT0jo=" alt="Watermelon" class="fruit-img">
+                            <div class="fruit-name">Watermelon</div>
+                        </label>
+                    </div>
+                    
+                    <!-- Pineapple -->
+                    <div class="fruit-card">
+                        <input type="checkbox" id="pineapple" name="fruits[]" value="pineapple">
+                        <label for="pineapple">
+                            <img src= "https://www.healthxchange.sg/sites/hexassets/Assets/food-nutrition/pineapple-health-benefits-and-ways-to-enjoy.jpg" alt="Pineapple" class="fruit-img">
+                            <div class="fruit-name">Pineapple</div>
+                        </label>
+                    </div>
+                    
+                    <!-- Mango -->
+                    <div class="fruit-card">
+                        <input type="checkbox" id="mango" name="fruits[]" value="mango">
+                        <label for="mango">
+                            <img src='https://cdn.pixabay.com/photo/2016/03/05/22/18/food-1239241_960_720.jpg' alt="Mango" class="fruit-img">
+                            <div class="fruit-name">Mango</div>
+                        </label>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Your Selection</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
